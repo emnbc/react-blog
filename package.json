@@ -15,6 +15,7 @@
     "@mantine/hooks": "^8.3.6",
     "@mantine/modals": "^8.3.6",
     "@mantine/notifications": "^8.3.6",
+    "@tabler/icons-react": "^3.35.0",
     "axios": "^1.13.1",
     "dayjs": "^1.11.19",
     "next": "16.0.1",

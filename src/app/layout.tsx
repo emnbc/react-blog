@@ -27,12 +27,12 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="light" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider defaultColorScheme="light">{children}</MantineProvider>
       </body>
     </html>
   );
